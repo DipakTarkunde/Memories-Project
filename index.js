@@ -18,9 +18,9 @@ app.use(cors());
 //middleware for routes
 app.use('/posts', postRoutes);
 
-app.get('/', (req, res) => {
-    res.send('Hello to Memories API');
-})
+// app.get('/', (req, res) => {
+//     res.send('Hello to Memories API');
+// })
 
 
 // Database connection the mongodb atlas
